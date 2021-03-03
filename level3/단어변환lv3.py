@@ -17,7 +17,6 @@ def bfs(start, end, g):
                     if visited[strr+1] == 0:
                         visited[strr+1] = visited[n] + 1
                         q.append([strr+1, g[strr]])
-    return visited
                                        
                 
 def solution(begin, target, words):
