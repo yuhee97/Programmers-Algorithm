@@ -5,5 +5,5 @@ def solution(n):
         q, r = divmod(n-1,3)
         return solution(q) + '124'[r]
 
-nn = 12
+nn = 14
 print(solution(nn))
