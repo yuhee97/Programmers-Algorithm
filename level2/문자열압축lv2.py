@@ -1,5 +1,3 @@
-import math
-
 def solution(s):
     result = []; n = len(s)
     if n == 1:
@@ -17,10 +15,9 @@ def solution(s):
                     else:
                         if count < 2:
                             strr += s_c
-                            count = 1
                         else:
                             strr += (str(count) + s_c)
-                            count = 1
+                        count = 1
                 else:
                     strr += s[j:]
                     break
@@ -31,9 +28,7 @@ def solution(s):
         else:
             strr += (str(count) + s_c)
         result.append(len(strr))   
-        
     return min(result)   
-
 
 s = "aabbaccc"
 print(solution(s))
