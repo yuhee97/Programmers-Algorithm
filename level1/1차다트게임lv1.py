@@ -45,5 +45,5 @@ def solution(dartResult):
             continue       
     return sum(result)
 
-d = '1S2D*3T'
-print(solution(d))
+dd = '1S2D*3T'
+print(solution(dd))
